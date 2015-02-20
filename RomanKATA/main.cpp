@@ -19,6 +19,11 @@ using std::endl;
 string Converter(int number)
 {
     string romannum = "";
+    while( number >= 100)
+    {
+        romannum += "C";
+        number-= 100;
+    }
     while( number >= 10)
     {
         romannum += "X";
@@ -43,6 +48,7 @@ TEST_CASE( "Converter Function", "Convert" ) {
     REQUIRE( Converter(20) == "XX");
     REQUIRE( Converter(30) == "XXX");
     REQUIRE( Converter(33) == "XXXIII");
+    REQUIRE( Converter(100) == "C");
     
     
 }
