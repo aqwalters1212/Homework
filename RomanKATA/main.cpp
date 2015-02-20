@@ -40,6 +40,8 @@ TEST_CASE( "Converter Function", "Convert" ) {
     REQUIRE( Converter(2) == "II");
     REQUIRE( Converter(3) == "III");
     REQUIRE( Converter(10) == "X");
+    REQUIRE( Converter(20) == "XX");
+    REQUIRE( Converter(30) == "XXX");
     
     
 }
