@@ -25,27 +25,27 @@ struct dig
 const dig Digits[] =
 {
     {100,"C"},
-    {100,"X"},
-    {100,"I"},
+    {10,"X"},
+    {1,"I"},
 };
 
 string Converter(int number)
 {
     string romannum = "";
-    while( number >= 100)
+    while( number >= Digits[0].arabicnum)
     {
-        romannum += "C";
-        number-= 100;
+        romannum += Digits[0].romannumber;
+        number-= Digits[0].arabicnum;
     }
-    while( number >= 10)
+    while( number >= Digits[1].arabicnum)
     {
-        romannum += "X";
-        number-= 10;
+        romannum += Digits[1].romannumber;
+        number-= Digits[1].arabicnum;
     }
-    while(number >= 1)
+    while(number >= Digits[2].arabicnum)
     {
-        romannum += "I";
-        number--;
+        romannum += Digits[2].romannumber;
+        number -= Digits[2].arabicnum;
     }
     
     return romannum;
