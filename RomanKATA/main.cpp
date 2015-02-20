@@ -19,19 +19,12 @@ using std::endl;
 string Converter(int number)
 {
     string romannum = "";
-    if(number >= 1)
+    while(number >= 1)
     {
         romannum += "I";
+        number--;
     }
-    else if(number >= 2 )
-    {
-        romannum += "I";
-    }
-    else if (number >= 3)
-    {
-        romannum += "I";
-    }
-        return romannum;
+    return romannum;
     
 }
 
