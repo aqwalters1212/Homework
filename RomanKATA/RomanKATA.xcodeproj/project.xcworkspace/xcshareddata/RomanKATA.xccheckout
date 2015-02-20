@@ -16,6 +16,8 @@
 		<string>https://github.com/aqwalters1212/adamwalters</string>
 		<key>975752EF1E95FFB6F42ED241D73F839C8E08DADC</key>
 		<string>https://github.com/aqwalters1212/repo.git</string>
+		<key>FB9AEF2AB2AE34CB78322480FC380753F58C530E</key>
+		<string>https://github.com/aqwalters1212/Homework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>RomanKATA/RomanKATA.xcodeproj</string>
@@ -24,16 +26,18 @@
 		<key>1F393B5BEA0FEB5673F930A145ACE6E66540386C</key>
 		<string>../../../../repoRomanKATA/RomanKATA</string>
 		<key>2DDBD53722258D701738A0149C71E922D7983D53</key>
-		<string>../../..</string>
+		<string>../../../../adamwalters</string>
 		<key>975752EF1E95FFB6F42ED241D73F839C8E08DADC</key>
 		<string>../../../../repo</string>
+		<key>FB9AEF2AB2AE34CB78322480FC380753F58C530E</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/aqwalters1212/adamwalters</string>
+	<string>https://github.com/aqwalters1212/Homework.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2DDBD53722258D701738A0149C71E922D7983D53</string>
+	<string>FB9AEF2AB2AE34CB78322480FC380753F58C530E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -43,6 +47,14 @@
 			<string>2DDBD53722258D701738A0149C71E922D7983D53</string>
 			<key>IDESourceControlWCCName</key>
 			<string>adamwalters</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB9AEF2AB2AE34CB78322480FC380753F58C530E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Homework</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
