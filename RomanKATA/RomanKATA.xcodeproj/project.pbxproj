@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		667FAA2E1A9706DC00ACA8DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 667FAA2D1A9706DC00ACA8DE /* main.cpp */; };
+		66CFAEAE1A97DCE600B84EBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66CFAEAD1A97DCE600B84EBC /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		667FAA2A1A9706DC00ACA8DE /* RomanKATA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RomanKATA; sourceTree = BUILT_PRODUCTS_DIR; };
-		667FAA2D1A9706DC00ACA8DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		667FAA341A9707AE00ACA8DE /* Catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Catch.hpp; path = RomanKATA/Catch.hpp; sourceTree = "<group>"; };
+		66CFAEAC1A97DCE600B84EBC /* Catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Catch.hpp; sourceTree = SOURCE_ROOT; };
+		66CFAEAD1A97DCE600B84EBC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,6 @@
 			children = (
 				667FAA2C1A9706DC00ACA8DE /* RomanKATA */,
 				667FAA2B1A9706DC00ACA8DE /* Products */,
-				667FAA341A9707AE00ACA8DE /* Catch.hpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +58,8 @@
 		667FAA2C1A9706DC00ACA8DE /* RomanKATA */ = {
 			isa = PBXGroup;
 			children = (
-				667FAA2D1A9706DC00ACA8DE /* main.cpp */,
+				66CFAEAC1A97DCE600B84EBC /* Catch.hpp */,
+				66CFAEAD1A97DCE600B84EBC /* main.cpp */,
 			);
 			path = RomanKATA;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667FAA2E1A9706DC00ACA8DE /* main.cpp in Sources */,
+				66CFAEAE1A97DCE600B84EBC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +234,7 @@
 				667FAA331A9706DC00ACA8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

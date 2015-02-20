@@ -18,11 +18,11 @@ using std::endl;
 
 string Converter(int number)
 {
-    return "";
+    return "I";
 }
 
 TEST_CASE( "Converter Function", "Convert" ) {
-    REQUIRE( Converter(4) == "");
+    REQUIRE( Converter(1) == "I");
     
     
 }
