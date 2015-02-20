@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A837C7B-F8FB-42E3-ADDC-AC1AB74187EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RomanKATA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F393B5BEA0FEB5673F930A145ACE6E66540386C</key>
+		<string>https://github.com/aqwalters1212/adamwalters</string>
+		<key>2DDBD53722258D701738A0149C71E922D7983D53</key>
+		<string>https://github.com/aqwalters1212/adamwalters</string>
+		<key>975752EF1E95FFB6F42ED241D73F839C8E08DADC</key>
+		<string>https://github.com/aqwalters1212/repo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RomanKATA/RomanKATA.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F393B5BEA0FEB5673F930A145ACE6E66540386C</key>
+		<string>../../../../repoRomanKATA/RomanKATA</string>
+		<key>2DDBD53722258D701738A0149C71E922D7983D53</key>
+		<string>../../..</string>
+		<key>975752EF1E95FFB6F42ED241D73F839C8E08DADC</key>
+		<string>../../../../repo</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aqwalters1212/adamwalters</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2DDBD53722258D701738A0149C71E922D7983D53</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DDBD53722258D701738A0149C71E922D7983D53</string>
+			<key>IDESourceControlWCCName</key>
+			<string>adamwalters</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>975752EF1E95FFB6F42ED241D73F839C8E08DADC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>repo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F393B5BEA0FEB5673F930A145ACE6E66540386C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RomanKATA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
