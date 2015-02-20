@@ -32,20 +32,23 @@ const dig Digits[] =
 string Converter(int number)
 {
     string romannum = "";
-    while( number >= Digits[0].arabicnum)
+    int j=0;
+    while( number >= Digits[j].arabicnum)
     {
-        romannum += Digits[0].romannumber;
-        number-= Digits[0].arabicnum;
+        romannum += Digits[j].romannumber;
+        number-= Digits[j].arabicnum;
     }
-    while( number >= Digits[1].arabicnum)
+    j++;
+    while( number >= Digits[j].arabicnum)
     {
-        romannum += Digits[1].romannumber;
-        number-= Digits[1].arabicnum;
+        romannum += Digits[j].romannumber;
+        number-= Digits[j].arabicnum;
     }
-    while(number >= Digits[2].arabicnum)
+    j++;
+    while(number >= Digits[j].arabicnum)
     {
-        romannum += Digits[2].romannumber;
-        number -= Digits[2].arabicnum;
+        romannum += Digits[j].romannumber;
+        number -= Digits[j].arabicnum;
     }
     
     return romannum;
