@@ -16,6 +16,19 @@ using std::string;
 using std::cout;
 using std::endl;
 
+struct dig
+{
+    int arabicnum;
+    string romannumber;
+};
+
+const dig Digits[] =
+{
+    {100,"C"},
+    {100,"X"},
+    {100,"I"},
+};
+
 string Converter(int number)
 {
     string romannum = "";
