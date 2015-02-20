@@ -18,11 +18,24 @@ using std::endl;
 
 string Converter(int number)
 {
-    return "I";
+    string romannum = "";
+    if(number ==1)
+    {
+        return "I";
+    }
+    else if(number ==2 )
+    {
+        return "II";
+    }
+    else
+        return romannum;
+    
 }
 
 TEST_CASE( "Converter Function", "Convert" ) {
+    REQUIRE( Converter(0) == "");
     REQUIRE( Converter(1) == "I");
+    REQUIRE( Converter(2) == "II");
     
     
 }
