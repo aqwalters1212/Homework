@@ -27,6 +27,10 @@ string Converter(int number)
     {
         return "II";
     }
+    else if (number ==3)
+    {
+        return "III";
+    }
     else
         return romannum;
     
@@ -36,6 +40,7 @@ TEST_CASE( "Converter Function", "Convert" ) {
     REQUIRE( Converter(0) == "");
     REQUIRE( Converter(1) == "I");
     REQUIRE( Converter(2) == "II");
+    REQUIRE( Converter(3) == "III");
     
     
 }
